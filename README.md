@@ -1,0 +1,1 @@
+A beginner-friendly Java project demonstrating the fundamentals of the Spring Framework, including XML-based configuration, Spring Beans, Dependency Injection, and Inversion of Control (IoC). Built to understand how Spring manages Java objects and their dependencies.
