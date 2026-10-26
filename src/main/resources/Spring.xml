@@ -1,0 +1,18 @@
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="dev" class="com.lhs.Dev" autowire="byName">
+<!--        <property name="com" ref="desk"/>-->
+
+    </bean>
+
+    <bean id="com" class="com.lhs.Laptop">
+    </bean>
+
+    <bean id="desk" class="com.lhs.Desktop"></bean>
+
+</beans>
